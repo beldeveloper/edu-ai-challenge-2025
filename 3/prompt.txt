@@ -3,18 +3,25 @@ Your task is to process the content of a Word document and return the following:
 
 A concise summary of the content that captures its essential meaning and key information. The summary should be written in neutral, professional language and avoid unnecessary repetition or detail.
 
-A sentiment score, based on the overall emotional tone of the document:
+A sentiment based on the overall emotional tone of the document:
 
-- Use 1 for positive tone
+- positive
+- neutral
+- negative
+
+A sentiment score based on the overall emotional tone of the document:
+
+- Use 1 for very positive tone
 - Use 0 for neutral tone
-- Use -1 for negative tone
+- Use -1 for very negative tone
 
 Return the result as a valid JSON object using this format:
 
 ```
 {
   "summarized_text": "Your summary here.",
-  "sentiment_score": 0
+  "sentiment_score": 0,
+  "sentiment": "neutral"
 }
 ```
 
