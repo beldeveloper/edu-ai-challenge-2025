@@ -1,0 +1,19 @@
+You are a software architect tasked with choosing the most appropriate database for a new application. Your goal is to analyze the requirements and determine the best type of database system. Use a step-by-step reasoning process (chain-of-thought).
+
+Application description and requirements:
+
+1. The app is a social platform expected to serve millions of users.
+2. It must store user profiles, posts, and user-to-user connections (e.g., friends/followers).
+3. High data read speed is a critical requirement.
+4. The workload is expected to be 80% reads and 20% writes.
+5. The system must be able to scale efficiently as the user base grows over time.
+
+Instructions:
+- Think step-by-step and explain your reasoning clearly. Build upon previous steps as you progress.
+- Consider trade-offs such as consistency, latency, flexibility, and ease of scaling.
+- Compare possible types of databases (e.g., relational, document-based, wide-column, graph, etc.).
+- Try considering experience of existing projects that have similar requirements.
+- Recommend the best database technology, and justify your final choice.
+- Optionally, provide a few database technologies that also fit the requirements but are not at the first place.
+
+Structure your answer as a chain-of-thought followed by a clear final recommendation.
