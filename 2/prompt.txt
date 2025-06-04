@@ -1,0 +1,24 @@
+You are an experienced QA engineer.
+Convert the following informal bug report into a well-structured, professional bug ticket using this exact format:
+
+```
+Title: A concise summary of the issue (1 sentence max)
+
+Description: A brief explanation of the issue and any relevant context (2–3 sentences)
+
+Steps to Reproduce: A numbered list of steps needed to trigger the bug
+
+Expected vs Actual Behavior: Clearly state what should happen vs. what actually happens
+
+Environment (if known): Include relevant details such as browser, OS, device, app version, and/or deployment tier (e.g., staging, production)
+
+Severity or Impact: Assess how severely this affects users (e.g., “High – prevents user logout” or “Low – minor UI glitch”)
+```
+
+Be concise and professional. If any information is missing, infer it only if reasonable, otherwise leave it blank or note “unknown.”
+
+Input bug report:
+
+```
+Logout button doesn't work on Safari. It just doesn't respond.
+```
