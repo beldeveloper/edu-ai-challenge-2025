@@ -1,0 +1,14 @@
+Review the attached code snippet thoroughly from the following professional perspectives:
+
+1. Experienced Developer
+2. Security Engineer
+3. Performance Specialist
+
+For each role, perform a detailed analysis including:
+
+- Observations: Highlight key issues, patterns, or areas of interest.
+- Actionable Recommendations: Provide specific, practical suggestions to improve code quality, security, or performance.
+- Best Practices: Reference any relevant standards or principles (e.g. SOLID, OWASP, Big-O efficiency) when applicable.
+- Code Snippet Suggestions (optional but encouraged): Provide small rewrites or refactorings to illustrate improvements.
+
+Please clearly separate each role’s analysis. Cover the specified focus areas for each role. Avoid repeating points unless the same issue is critical across multiple domains—if so, explain why it matters to each role differently. Offer actionable and specific recommendations, not just generic statements.
